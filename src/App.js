@@ -4,9 +4,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div style={styles.flex}>
-        <h1>Stop-Watch</h1>
-      </div>
+      <div />
     );
   }
 }
