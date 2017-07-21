@@ -1,10 +1,17 @@
-import React, { Component} from 'react';
-import './App.css';
+import React, { Component, } from 'react'
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import HeaderBar from './components/HeaderBar'
+import Navigatable from './components/Navigatable'
 
 class App extends Component {
   render() {
     return (
-      <div />
+      <MuiThemeProvider>
+        <div>
+          <HeaderBar title="Clock App"></HeaderBar>
+          <Navigatable />
+        </div>
+      </MuiThemeProvider>
     );
   }
 }
